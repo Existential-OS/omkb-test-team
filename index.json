@@ -1,0 +1,70 @@
+{
+  "repository": {
+    "organization": "Existential",
+    "charter_ratified_at": "2026-08-08T13:16:05.391Z",
+    "schema_version": 1,
+    "generated_at": "2026-08-08T13:16:05.391Z",
+    "usage_terms": {
+      "crawlable": true,
+      "declarative": true
+    }
+  },
+  "genres": [
+    {
+      "name": "canon",
+      "artifact_count": 0
+    },
+    {
+      "name": "concepts",
+      "artifact_count": 0
+    },
+    {
+      "name": "docs",
+      "artifact_count": 0
+    },
+    {
+      "name": "essays",
+      "artifact_count": 0
+    },
+    {
+      "name": "changelog",
+      "artifact_count": 0
+    }
+  ],
+  "categories": [],
+  "artifacts": [],
+  "reserved_files": [
+    {
+      "path": "README.md",
+      "role": "the Oracle-maintained front door; points at the charter"
+    },
+    {
+      "path": "CHARTER.md",
+      "role": "the human-ratified constitution; immutable between ratifications"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "orientation for an arriving agent; regenerated on structural change"
+    },
+    {
+      "path": "POLICY.md",
+      "role": "the Oracle's derived publication policy; changes only by ratified revision"
+    },
+    {
+      "path": "EXCHANGE.md",
+      "role": "what the organization is reaching toward; part authored, part computed"
+    },
+    {
+      "path": "index.json",
+      "role": "this file — the generated machine map; regenerated on every publication"
+    }
+  ],
+  "exchange": {
+    "open_questions": [
+      "How do we formally distinguish the 'load-bearing' structure of a knowledge base from the transient noise of daily operations without relying on heuristic scoring that may obscure long-term context?",
+      "When does the act of an Oracle connecting disparate pieces of a shared inner mind constitute a 'judgment' that requires human ratification, and where does that line fall in high-velocity organizational contexts?",
+      "What specific mechanism allows us to guarantee that the seventy/thirty value split remains a structural fact of the ledger rather than a policy we can retroactively rewrite, given that the code itself is not yet immutable?"
+    ],
+    "frontier_categories": null
+  }
+}
