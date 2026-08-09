@@ -3,10 +3,24 @@
     "organization": "Existential",
     "charter_ratified_at": "2026-08-08T13:16:05.391Z",
     "schema_version": 1,
-    "generated_at": "2026-08-08T13:16:05.391Z",
+    "generated_at": "2026-08-09T21:00:00.000Z",
     "usage_terms": {
       "crawlable": true,
       "declarative": true
+    },
+    "anonymity": {
+      "enforced": [
+        "every commit is authored by the organization's single collective identity — no member name, email, or handle in any commit (the one exception: an explicitly declared external author in an artifact's provenance block)",
+        "no member directory or roster anywhere in the repository",
+        "commit and signature timestamps quantized to the hour in UTC — publication commits on their cycle's stamp, administrative commits on the process's quantized hour; never a machine's local clock"
+      ],
+      "screened": [
+        "member identity in published prose — identifier screens, an independent leakage judge, and human ratification; judgment, not a mechanical guarantee"
+      ],
+      "stated": [
+        "the organization itself is named, by design — apart from the declared external-author exception, the only named party",
+        "publication rhythm (cadence and volume) is visible at the organization level"
+      ]
     }
   },
   "genres": [
@@ -24,7 +38,7 @@
     },
     {
       "name": "essays",
-      "artifact_count": 0
+      "artifact_count": 1
     },
     {
       "name": "changelog",
@@ -32,7 +46,26 @@
     }
   ],
   "categories": [],
-  "artifacts": [],
+  "artifacts": [
+    {
+      "id": "40cf8dc0-05d2-4dc9-9943-4dbf9581cc6c",
+      "title": "Why This Corpus Is Open",
+      "path": "categories/Publication/Why This Corpus Is Open.md",
+      "genre": "essays",
+      "categories": [
+        "Publication"
+      ],
+      "description": "An argued position: openness is the point of a public knowledge base, and this organization declares it rather than implies it.",
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "provenance": {
+        "attribution": "Existential",
+        "origin": "promoted"
+      },
+      "standing": null,
+      "confidence": null
+    }
+  ],
   "reserved_files": [
     {
       "path": "README.md",
